@@ -1,0 +1,36 @@
+import React from "react";
+import _ from "lodash";
+
+const Pagination = ({ itemsCount, pageSize, currentPage, onPageChange }) => {
+  const pagesCount = Math.ceil(itemsCount / pageSize);
+  if (pagesCount === 1) return null;
+  const pages = _.range(1, pagesCount + 1);
+  return (
+    <div>    
+    <div aria-label="Pagination Navigation" role="navigation" className="ui pagination pointing secondary menu">
+    {pages.map((page) => (
+      <a aria-disabled="false" tabindex="0" value={page} key={page}
+      className={page === currentPage ? "item active" : "item"} onClick={() => onPageChange(page)}>
+       {page} </a>
+        ))}
+      </div>
+    {/* <nav>
+      <ul className="pagination">
+        {pages.map((page) => (
+          <li
+            key={page}
+            className={page === currentPage ? "page-item active" : "page-item"}
+          >
+            <button className="page-link" onClick={() => onPageChange(page)}>
+              {page}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </nav> */}
+    </div>
+
+  );
+};
+
+export default Pagination;
