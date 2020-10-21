@@ -17,6 +17,7 @@ class App extends Component {
           <Route path="/login" component={LoginForm} />
            <Route path="/movies/:id" component={MovReg} />
           <Route path="/movies" component={Movies}></Route>
+          <Route path="/vidly_2.0" component={Movies}></Route>
           <Route path="/customers" component={Customers}></Route>
           <Route path="/rentals" component={Rentals}></Route>
           <Route path="/not-found" component={NotFound}></Route>
