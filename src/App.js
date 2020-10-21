@@ -14,15 +14,15 @@ class App extends Component {
     return (
       <main className="container">
         <Switch>
+          <Redirect from="/vidly_2.0/" exact to="/movies"></Redirect> 
           <Route path="/login" component={LoginForm} />
-           <Route path="/movies/:id" component={MovReg} />
-          <Route path="/movies" component={Movies}></Route>
-          <Route path="/vidly_2.0/" component={Movies}></Route>
+          <Route path="/movies/:id" component={MovReg} />
+          <Route path="/movies" component={Movies}></Route/>
           <Route path="/customers" component={Customers}></Route>
           <Route path="/rentals" component={Rentals}></Route>
           <Route path="/not-found" component={NotFound}></Route>
           <Route path="/register" component={Register}></Route>
-          <Redirect from="/" exact to="/movies"></Redirect>
+          <Redirect from="/" exact to="/movies"></Redirect> 
           <Redirect to="/not-found"></Redirect>
         </Switch>
       </main>
