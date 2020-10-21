@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/vidly_2.0/static/css/main.875b8b89.chunk.css",
+    "main.js": "/vidly_2.0/static/js/main.0854388e.chunk.js",
+    "main.js.map": "/vidly_2.0/static/js/main.0854388e.chunk.js.map",
+    "runtime-main.js": "/vidly_2.0/static/js/runtime-main.ccc72094.js",
+    "runtime-main.js.map": "/vidly_2.0/static/js/runtime-main.ccc72094.js.map",
+    "static/css/2.cd456428.chunk.css": "/vidly_2.0/static/css/2.cd456428.chunk.css",
+    "static/js/2.28203b0a.chunk.js": "/vidly_2.0/static/js/2.28203b0a.chunk.js",
+    "static/js/2.28203b0a.chunk.js.map": "/vidly_2.0/static/js/2.28203b0a.chunk.js.map",
+    "index.html": "/vidly_2.0/index.html",
+    "precache-manifest.a6ccea3a852ba87cf4aba0765fc09446.js": "/vidly_2.0/precache-manifest.a6ccea3a852ba87cf4aba0765fc09446.js",
+    "service-worker.js": "/vidly_2.0/service-worker.js",
+    "static/css/2.cd456428.chunk.css.map": "/vidly_2.0/static/css/2.cd456428.chunk.css.map",
+    "static/css/main.875b8b89.chunk.css.map": "/vidly_2.0/static/css/main.875b8b89.chunk.css.map",
+    "static/js/2.28203b0a.chunk.js.LICENSE.txt": "/vidly_2.0/static/js/2.28203b0a.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/vidly_2.0/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/font-awesome.css": "/vidly_2.0/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccc72094.js",
+    "static/css/2.cd456428.chunk.css",
+    "static/js/2.28203b0a.chunk.js",
+    "static/css/main.875b8b89.chunk.css",
+    "static/js/main.0854388e.chunk.js"
+  ]
+}
