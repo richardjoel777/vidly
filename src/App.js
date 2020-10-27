@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <main className="container">
         <Switch>
-          <Redirect from="/vidly_2.0/" exact to="/movies"></Redirect> 
+          <Redirect from={process.env.PUBLIC_URL + '/'} exact to="/movies"></Redirect> 
           <Route path="/login" component={LoginForm} />
           <Route path="/movies/:id" component={MovReg} />
           <Route path="/movies" component={Movies}></Route/>
