@@ -10,7 +10,7 @@ import NavBar from "./services/compoenents/navBar";
 import 'semantic-ui-css/semantic.min.css'
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div>
       <NavBar></NavBar>
       <App />
